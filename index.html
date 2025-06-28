@@ -10,33 +10,45 @@
       font-family: 'Arial', sans-serif;
       text-align: center;
       margin: 0;
-      padding: 30px;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 10px;
     }
 
     img.logo {
-      width: 200px;
+      width: 100%;
+      max-width: 220px;
+      height: auto;
       margin-bottom: 20px;
     }
 
     h1 {
       color: #6a3d00;
-      margin: 10px 0 0 0;
+      margin: 10px 0 5px;
+      font-size: 22px;
     }
 
     h2 {
       color: #2c6e1a;
-      margin: 5px 0 30px 0;
+      margin: 0 0 30px;
+      font-size: 18px;
     }
 
     a.button {
       display: block;
       margin: 10px auto;
-      padding: 15px;
-      width: 220px;
-      border-radius: 10px;
+      padding: 14px;
+      width: 90%;
+      max-width: 300px;
+      border-radius: 12px;
       color: white;
       text-decoration: none;
       font-weight: bold;
+      font-size: 16px;
       transition: 0.3s ease;
     }
 
@@ -46,21 +58,21 @@
     a.map { background-color: #6ea8fe; }
 
     a.button:hover {
-      transform: scale(1.05);
+      transform: scale(1.03);
       opacity: 0.9;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <img src="logo.jpg" alt="شعار مجوهرات النهدي" class="logo">
+    <h1>مجوهرات النهدي</h1>
+    <h2>ALNAHDIJEWELRY</h2>
 
-  <img src="logo.jpg" alt="شعار مجوهرات النهدي" class="logo">
-  <h1>مجوهرات النهدي</h1>
-  <h2>ALNAHDIJEWELRY</h2>
-
-  <a href="https://www.tiktok.com/@alnahdijewelry" class="button tiktok" target="_blank">دخول TikTok</a>
-  <a href="https://wa.me/966551931424" class="button whatsapp" target="_blank">تواصل واتساب</a>
-  <a href="https://snapchat.com/t/BmLS9ddE" class="button snapchat" target="_blank">سناب شات</a>
-  <a href="https://maps.app.goo.gl/wSiBhSvkWUFVE56T6" class="button map" target="_blank">موقع المحل</a>
-
+    <a href="https://www.tiktok.com/@alnahdijewelry" class="button tiktok" target="_blank">دخول TikTok</a>
+    <a href="https://wa.me/966551931424" class="button whatsapp" target="_blank">تواصل واتساب</a>
+    <a href="https://snapchat.com/t/BmLS9ddE" class="button snapchat" target="_blank">سناب شات</a>
+    <a href="https://maps.app.goo.gl/wSiBhSvkWUFVE56T6" class="button map" target="_blank">موقع المحل</a>
+  </div>
 </body>
 </html>
